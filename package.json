@@ -1,0 +1,31 @@
+{
+  "name": "gbook-plugin-highlight",
+  "version": "1.0.0",
+  "description": "用于在GBook中高亮显示代码",
+  "main": "index.js",
+  "scripts": {
+    "-prepublish": "mkdir -p css && lessc ./less/website.less > ./css/website.css; lessc ./less/ebook.less > ./css/ebook.css",
+    "test": "mocha test/"
+  },
+  "engines": {
+    "gbook": ">=1.0.0"
+  },
+  "dependencies": {
+    "highlight.js": "9.8.0"
+  },
+  "devDependencies": {
+    "less": "2.7.1",
+    "mocha":"3.2.0",
+    "gitbook-tester":"1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/54dxs/gbook-plugin-highlight.git"
+  },
+  "author": "",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/54dxs/gbook-plugin-highlight/issues"
+  },
+  "homepage": "https://github.com/54dxs/gbook-plugin-highlight#readme"
+}
