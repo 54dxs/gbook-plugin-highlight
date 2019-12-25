@@ -1,2 +1,13 @@
-# gbook-plugin-highlight
-在GBook中突出显示代码
+# 用于在GBook中高亮显示代码
+
+该插件是GBook的一个默认插件，用于代码的高亮显示。
+
+您可以使用以下方法将其删除：
+
+```
+{
+    plugins: ["-highlight"]
+}
+```
+
+
